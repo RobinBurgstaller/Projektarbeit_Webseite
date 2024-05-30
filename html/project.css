@@ -1,0 +1,21 @@
+.project-item {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.project-item p {
+  font-size: 1rem;
+}
+
+.project-item a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3498db;
+}

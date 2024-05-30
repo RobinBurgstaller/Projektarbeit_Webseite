@@ -1,0 +1,19 @@
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7f7f7; /* Hintergrundfarbe für den Inhalt */
+  border-radius: 10px;
+}
+
+.skills-list {
+  list-style-type: none; /* Entfernt die Standard-Listensymbole */
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #eaeaea; /* Hintergrundfarbe für Listenelemente */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}

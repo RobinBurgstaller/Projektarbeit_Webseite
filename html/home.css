@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  align-items: center;
+}
+
+#homeImg {
+  width: 50%;
+  height: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#homeTitel {
+  width: 50%;
+  margin-left: auto;
+  text-align: right;
+}

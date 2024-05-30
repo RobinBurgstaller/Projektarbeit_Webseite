@@ -1,0 +1,37 @@
+body {
+  background-color: #2c3e50;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profile-section {
+  background-color: #3498db;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image,
+.hobby-image {
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
