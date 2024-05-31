@@ -5,29 +5,63 @@ body {
   padding: 0;
 }
 
-.navbar {
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
   background-color: #e2d8b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px white solid;
+  padding-left: 1.25rem;
+}
+
+.header-link {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
 }
 
-.navLink {
-  width: 10%;
-  height: 20%;
-  background-color: #395ca1;
-  color: black;
-  border-radius: 50%;
+.nav ul {
+  list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
-.navLink--Now {
+.nav__link {
+  color: black;
+  padding: 1.25rem;
+  display: inline-block;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  background-color: #395ca1;
+  color: white;
+}
+
+.nav__link--active {
   background-color: #638475;
+  color: white;
 }
 .content {
   max-width: 800px;
