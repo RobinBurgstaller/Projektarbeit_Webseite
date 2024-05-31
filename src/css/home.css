@@ -1,18 +1,39 @@
 .content {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
-#homeImg {
+.homeImg {
   width: 50%;
   height: auto;
   margin-right: auto;
-  text-align: left;
   border-radius: 30%;
 }
 
-#homeTitel {
+.homeTitel {
   width: 50%;
   margin-left: auto;
-  text-align: right;
+}
+
+@media (min-width: 800px) {
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .homeImg {
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+    text-align: left;
+    border-radius: 30%;
+  }
+
+  .homeTitel {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+  }
 }
