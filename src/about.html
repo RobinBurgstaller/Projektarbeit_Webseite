@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Über mich</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about.css" />
   </head>
   <body>
     <header>
@@ -20,28 +21,33 @@
       </nav>
     </header>
 
-    <div class="profile-container">
-      <div class="profile-section">
-        <h2>Über mich</h2>
-        <img
-          src="/src/img/imgrobin.jpg"
-          alt="Profilbild"
-          class="profile-image profile-imge--left"
-        />
-        <ul>
-          <li>Alter: 16</li>
-          <li>Lorem ipsum dolo</li>
-          <li>Lorem ipsum dolo</li>
-          <li>Lorem ipsum dolo</li>
-        </ul>
-        <h2>Hobbies</h2>
-        <img src="/src/img/imgrobin.jpg" alt="Volleyball" class="hobby-image" />
-        <h3>Volleyball</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-        <img src="/src/img/imgrobin.jpg" alt="Gym" class="hobby-image" />
-        <h3>Gym</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <section>
+      <h2>Über mich</h2>
+      <div class="text-image">
+        <img src="/src/img/imgrobin.jpg" alt="Profilbild" class="text-image__img" />
+        <div class="text-image__content">
+          <ul>
+            <li>Alter: 16</li>
+            <li>Lorem ipsum dolo</li>
+            <li>Lorem ipsum dolo</li>
+            <li>Lorem ipsum dolo</li>
+          </ul>
+        </div>
       </div>
-    </div>
+      <h2>Hobbies</h2>
+      <div class="text-image text-image--reverse">
+        <img src="/src/img/imgrobin.jpg" alt="Profilbild" class="text-image__img" />
+        <div class="text-image__content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+      </div>
+      <h2>Volleyball</h2>
+      <div class="text-image">
+        <img src="/src/img/imgrobin.jpg" alt="Profilbild" class="text-image__img" />
+        <div class="text-image__content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
