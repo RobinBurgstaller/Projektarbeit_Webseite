@@ -110,11 +110,6 @@ header {
   color: white;
 }
 
-.content {
-  margin: 0 auto;
-  padding: 1em;
-}
-
 section {
   display: flex;
   flex-direction: column;

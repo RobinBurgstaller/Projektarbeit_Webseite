@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 .content-home {
@@ -37,7 +39,6 @@
     align-items: center;
     justify-items: center;
     flex-direction: row;
-    width: 100vw;
   }
 
   .homeImg {
