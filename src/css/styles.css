@@ -26,6 +26,7 @@ ul {
 }
 
 header {
+  width: auto;
   background-color: #e2d8b4;
   display: flex;
   justify-content: space-between;
@@ -101,14 +102,15 @@ header {
 .nav__link:hover {
   background-color: #395ca1;
   color: white;
+  align-items: center;
 }
 
 .nav__link--active {
   background-color: #638475;
   color: white;
 }
+
 .content {
-  max-width: 800px;
   margin: 0 auto;
   padding: 1em;
 }
@@ -122,6 +124,7 @@ section {
 
 @media (min-width: 800px) {
   header {
+    width: auto;
     padding: 0 1.25rem 0 2.5rem;
   }
 

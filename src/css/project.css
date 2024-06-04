@@ -1,8 +1,8 @@
 .project-item {
-  background-color: #f7f7f7;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+  border: 1px solid white;
 }
 
 .project-item h3 {
@@ -18,4 +18,19 @@
   margin-top: 10px;
   text-decoration: none;
   color: #3498db;
+}
+
+@media (min-width: 800px) {
+  .content-project {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-item {
+    background-color: #395ca1;
+    margin: 0.5rem;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  }
 }

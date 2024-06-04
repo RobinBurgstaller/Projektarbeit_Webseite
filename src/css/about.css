@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.text-image + h2 {
+.text-image {
   margin-top: 2rem;
 }
 
